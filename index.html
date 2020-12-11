@@ -33,11 +33,11 @@
       },
       {
         category: 'Work',
-        name: 'Spotify',
-        key: 's',
-        url: 'https://open.spotify.com',
-        search: '/search/{}',
-        color: 'linear-gradient(135deg, #1DB954, #1Da974)',
+        name: 'DEV',
+        key: 'd',
+        url: 'https://dev.to',
+        search: '/search?q={}',
+        color: 'linear-gradient(135deg, #f5a0c3, #f0f17d)',
       },
       {
         category: 'Lurk',
@@ -57,27 +57,35 @@
       },
       {
         category: 'Lurk',
-        name: 'Hunt',
-        key: 'p',
-        url: 'https://www.producthunt.com',
-        search: '/search?q={}',
-        color: 'linear-gradient(135deg, #da552f, #da802f)',
+        name: 'Discord',
+        key: 'd',
+        url: 'https://discord.com/app',
+        search: '',
+        color: 'linear-gradient(135deg, #5e6fc2, #4051b4)',
       },
       {
-        category: 'Read',
-        name: 'ForoCoches',
-        key: 'f',
-        url: 'https://forocoches.com',
-        search: '',
-        color: 'linear-gradient(135deg, #9c9c9c, #7d7d7d)',
+        category: 'Media',
+        name: 'Spotify',
+        key: 'S',
+        url: 'https://open.spotify.com',
+        search: '/search/{}',
+        color: 'linear-gradient(135deg, #1DB954, #1Da974)',
       },
       {
-        category: 'Read',
-        name: 'Burbuja',
-        key: 'b',
-        url: 'https://www.burbuja.info/inmobiliaria/forums/#',
-        search: '',
-        color: 'linear-gradient(135deg, #166eac, #0d4e7d)',
+        category: 'Media',
+        name: 'DixMax',
+        key: 'D',
+        url: 'https://dixmax.cc',
+        search: '/?view=search&q={}',
+        color: 'linear-gradient(135deg, #ff9113, #ffb354)',
+      },
+      {
+        category: 'Media',
+        name: 'Trakt',
+        key: 'T',
+        url: 'https://trakt.tv',
+        search: '/search?query={}',
+        color: 'linear-gradient(135deg, #ed1c24, #303030)',
       },
       {
         category: 'Read',
@@ -86,6 +94,78 @@
         url: 'https://feedly.com/i',
         search: '/discover/sources/search/topic/{}',
         color: 'linear-gradient(135deg, #2bb24c, #30c755)',
+      },
+      {
+        category: 'Read',
+        name: 'Hunt',
+        key: 'p',
+        url: 'https://www.producthunt.com',
+        search: '/search?q={}',
+        color: 'linear-gradient(135deg, #da552f, #da802f)',
+      },
+      {
+        category: 'Read',
+        name: 'Xataka',
+        key: 'x',
+        url: 'https://www.xataka.com',
+        search: '',
+        color: 'linear-gradient(135deg, #78a432, #265c14)',
+      },
+      {
+        category: 'Forums',
+        name: 'ForoCoches',
+        key: 'f',
+        url: 'https://forocoches.com',
+        search: '',
+        color: 'linear-gradient(135deg, #d90000, #9c0000)',
+      },
+      {
+        category: 'Forums',
+        name: 'Burbuja',
+        key: 'b',
+        url: 'https://www.burbuja.info/inmobiliaria/forums/#',
+        search: '',
+        color: 'linear-gradient(135deg, #166eac, #0d4e7d)',
+      },
+      {
+        category: 'Forums',
+        name: 'BHW',
+        key: 'B',
+        url: 'https://www.blackhatworld.com/',
+        search: '',
+        color: 'linear-gradient(135deg, #d7a11a, #242424)',
+      },
+      {
+        category: 'Personal',
+        name: 'Steam',
+        key: 's',
+        url: 'https://store.steampowered.com',
+        search: '/search/?term={}',
+        color: 'linear-gradient(135deg, #0a1429, #0e578f)',
+      },
+      {
+        category: 'Personal',
+        name: '9GAG',
+        key: '9',
+        url: 'https://9gag.com',
+        search: '/search/?query={}',
+        color: 'linear-gradient(135deg, #383838, #181818)',
+      },
+      {
+        category: 'Personal',
+        name: 'Raindrop',
+        key: '-',
+        url: 'https://app.raindrop.io/my/-1',
+        search: '/{}',
+        color: 'linear-gradient(135deg, #21cceb, #0f6edb)',
+      },
+      {
+        category: '',
+        name: 'SteamGifts',
+        key: 'sg',
+        url: 'https://steamgifts.com',
+        search: 'giveaways/search?q={}',
+        color: 'linear-gradient(135deg, #212121, #2e3c7d)',
       },
     ],
 
@@ -115,7 +195,7 @@
     defaultSuggestions: {
       g: ['gist.github.com', 'g/trending', 'g/issues', 'g/pulls'],
       r: ['r/r/webdev', 'r/r/web_design', 'r/r/coding', 'r/r/FrontEnd'],
-      T: ['T/explore', 'T/notifications', 'T/messages', 'T/profile'],
+      t: ['t/explore', 't/notifications', 't/messages', 't/profile'],
     },
 
     /**
@@ -171,8 +251,8 @@
     /* colors */
     --background: #3e4959;
     --foreground: #fffef8;
-    --searchBackground: #fffef8;
-    --searchForeground: #3e4959;
+    --searchBackground: #3e4959;
+    --searchForeground: #fffef8;
 
     /* fonts */
     --font-family: Lato, sans-serif;
